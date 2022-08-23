@@ -3,11 +3,10 @@
   --secondary-font-family: "Playfair Display", serif;
   --body-bg-color: #f9f7fe;
 }
-body {
-  background-color: var(--body-bg-color);
-}
+
 .hero {
-  padding: 160px 20px;
+  padding: 160px 20px 80px 20px;
+  background-color: var(--body-bg-color);
 }
 
 .hello-text {
@@ -39,4 +38,63 @@ h1 {
   font-size: 18px;
   font-weight: 400;
   padding: 15px 30px;
+  border: none;
+}
+.btn:hover {
+  background-color: #6c63ff;
+  color: rgb(8, 8, 83);
+}
+.learn-more {
+  background-color: #f9f7fe;
+  border: 0.3px solid #6c63ff;
+  color: #6c63ff;
+}
+.learn-more:hover {
+  background-color: #f9f7fe;
+  color: #100c55;
+  border: 0.3px solid #6c63ff;
+}
+.project-to-show {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+  margin-bottom: 20px;
+}
+.project-desciption {
+  padding: 100px 60px;
+}
+.h1-text-bloks {
+  font-family: var(--secondary-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  color: black;
+}
+.p-text-blocks {
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(108, 117, 125);
+  line-height: 27px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px 40px 20px;
+  }
+  .block-img {
+    display: none;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .h1-text-bloks {
+    text-align: center;
+    font-size: 44px;
+  }
 }
