@@ -97,6 +97,15 @@ h1 {
   font-size: 24px;
   font-weight: 700;
 }
+.contact-link {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: #1382e9;
+}
+.content-contacts {
+  margin-bottom: 100px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
