@@ -8,7 +8,10 @@
   padding: 160px 20px 80px 20px;
   background-color: var(--body-bg-color);
 }
-
+.work-title {
+  padding: 160px 30px 80px 30px;
+  text-align: center;
+}
 .hello-text {
   font-family: var(--primary-font-family);
   font-weight: 700;
@@ -66,7 +69,8 @@ h1 {
   padding: 100px 60px;
 }
 .h1-text-bloks,
-.h1-about-author {
+.h1-about-author,
+.h1-work-title {
   font-family: var(--secondary-font-family);
   font-size: 64px;
   font-weight: 700;
@@ -87,6 +91,11 @@ h1 {
 }
 .about-section-text {
   margin: 30px;
+}
+.h1-work-projects {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 700;
 }
 @media (max-width: 900px) {
   h1 {
