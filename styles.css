@@ -4,7 +4,7 @@
   --body-bg-color: #f9f7fe;
 }
 
-.hero {
+.hero .container {
   padding: 160px 20px 80px 20px;
   background-color: var(--body-bg-color);
 }
@@ -61,10 +61,12 @@ h1 {
   color: rgb(33, 37, 41);
   margin-bottom: 20px;
 }
-.project-desciption {
+.project-desciption,
+.about-section {
   padding: 100px 60px;
 }
-.h1-text-bloks {
+.h1-text-bloks,
+.h1-about-author {
   font-family: var(--secondary-font-family);
   font-size: 64px;
   font-weight: 700;
@@ -76,6 +78,15 @@ h1 {
   font-weight: 400;
   color: rgb(108, 117, 125);
   line-height: 27px;
+}
+
+.h2-about-author {
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-section-text {
+  margin: 30px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -93,7 +104,9 @@ h1 {
     text-align: center;
     font-size: 16px;
   }
-  .h1-text-bloks {
+  .h1-text-bloks,
+  .about-section-text,
+  .h1-about-author {
     text-align: center;
     font-size: 44px;
   }
