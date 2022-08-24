@@ -4,7 +4,7 @@
   --body-bg-color: #f9f7fe;
 }
 
-.hero .container {
+.hero {
   padding: 160px 20px 80px 20px;
   background-color: var(--body-bg-color);
 }
