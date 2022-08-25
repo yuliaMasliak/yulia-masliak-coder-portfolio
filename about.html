@@ -42,6 +42,24 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <nav>
+      <img
+        src="/images/logo.png"
+        alt="shecodes logo"
+        class="d-none d-sm-block"
+      />
+      <img
+        src="/images/logo-small.jpg"
+        alt="shecodes small logo"
+        class="small-logo d-block d-sm-none"
+      />
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li class="active"><a href="/about.html">About</a></li>
+        <li><a href="/work.html">Projects</a></li>
+        <li><a href="/contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
     <div>
       <div class="container">
         <div class="row about-section">
@@ -58,7 +76,9 @@
                 exercises, and everything is well explained, homework and
                 deadlines are good for keep focus
               </p>
-              <a href="#" class="btn" title="See my project">My projects</a>
+              <a href="/work.html" class="btn" title="See project"
+                >My projects</a
+              >
             </div>
           </div>
           <div class="col-lg-6">
