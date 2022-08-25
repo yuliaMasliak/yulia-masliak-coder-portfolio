@@ -164,7 +164,7 @@ nav li.active a {
 
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .social-links a {
   color: #6c63ff;
@@ -178,6 +178,14 @@ nav li.active a {
   transition: 150ms all ease-in-out;
 
   background-color: #6c63ff;
+}
+.open-courced-text {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
 @media (max-width: 900px) {
   h1 {
