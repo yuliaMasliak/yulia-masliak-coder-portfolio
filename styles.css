@@ -120,7 +120,13 @@ nav ul {
   margin: 10px;
   padding: 0px 20px 0px 0px;
 }
-nav li {
+.footer {
+  justify-content: space-between;
+  background-color: var(--body-bg-color);
+  padding: 30px 120px;
+}
+nav li,
+.footer-p {
   display: inline;
   font-family: var(--primary-font-family);
   font-size: 16px;
@@ -135,6 +141,43 @@ nav a {
 nav li.active a {
   color: #6c63ff;
 }
+.footer-h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+.footer-email a {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: 50px 0px;
+}
+.footer-email a:hover {
+  color: #6c63ff;
+}
+.social-links {
+  font-size: 24px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.social-links a {
+  color: #6c63ff;
+  margin: 0px 20px;
+  padding: 15px 25px;
+  border-radius: 50%;
+  background-color: var(--body-bg-color);
+}
+.social-links a:hover {
+  color: var(--body-bg-color);
+
+  background-color: #6c63ff;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -145,7 +188,9 @@ nav li.active a {
   .block-img {
     display: none;
   }
-
+  .footer-h3 {
+    font-size: 26px;
+  }
   .project-desciption {
     padding: 0;
     text-align: center;
